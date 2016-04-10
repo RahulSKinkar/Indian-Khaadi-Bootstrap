@@ -1,0 +1,421 @@
+/*------------------------------------------
+Layout
+------------------------------------------*/
+#features{
+  text-align:center;
+}
+
+#inputMessage{
+  margin-bottom:15px;
+}
+
+#features img{
+  margin:20px 0 20px;
+}
+
+footer{
+  background-color:#333;
+  color: #EEE;
+  font-size: 12px;
+  padding: 20px;
+}
+
+footer a{
+  color: #EEE;
+}
+
+#socialLink p{
+  font-size: 17px;
+  text-align: center;
+}
+
+#socialLink li{
+  padding-left: 40%;
+}
+
+.list-unstyled.footerColumn li{
+  padding-bottom: 7px;
+}
+
+.fa-inverse {
+    color: #000 !important;
+}
+/*------------------------------------------
+Typography
+------------------------------------------*/
+.well .page-header {
+    margin-top: 0px;
+}
+
+.body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.well .page-header h1 {
+    margin-top: 0px;
+}
+
+p{
+  font-family:sans-serif;
+}
+
+/*------------------------------------------
+Navbar
+------------------------------------------*/
+.navbar-form .form-control {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.dropdown-menu{
+  text-align: center;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.navbar{
+  background-color:#f5f5f5;
+}
+
+a.navbar-brand{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#logInSearchMobile{
+  display: none;
+}
+
+/*------------------------------------------
+Carousel
+------------------------------------------*/
+
+#myCarousel{
+  margin-top:70px;
+}
+.carousel-caption {
+  font-size:20px;
+  position:absolute;
+  top:20px
+}
+.carousel-caption h4{
+  font-size: 26px;
+  color:#FCEE59;
+}
+
+.carousel-caption p{
+  color:#555;
+}
+.carousel-inner #slide1, .carousel-inner #slide2, .carousel-inner #slide3{height:400px;}
+
+#slide1{
+  background:url("../../images/home/carousel_medium_men.jpg") top center no-repeat ;
+}
+#slide2{
+  background: url('../../images/home/carousel_medium_women.jpg') top center no-repeat ;
+}
+#slide3{
+  background: url('../../images/home/carousel_medium_kids.jpg') top center no-repeat ;
+}
+
+/*------------------------------------------
+Callout
+------------------------------------------*/
+#bigCallout .well{
+  margin-top:20px;
+}
+
+#bigCallout .col-12{
+  margin-left:0PX;
+}
+
+#bigCallout{
+  margin: 0;
+}
+/*------------------------------------------
+Global Styles
+------------------------------------------*/
+
+#grainIcon{
+  text-align: center;
+  color: #90F056;
+  font-size: 30px;
+}
+
+.well  p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.well p span{
+  color:#96F056;
+}
+
+.well{padding-bottom:9px;}
+
+.alert{
+  margin-top:20px;
+  display:none;
+}
+
+.thumbnails{
+  margin:20px 0;
+}
+
+.thumbnail{
+  position:relative;
+}
+
+.thumbnail .caption{
+  text-align: center;
+  color:#555;
+}
+
+.thumbnail h3{
+  font-size:16px;
+  margin:0 0 10px;
+  line-height: 20px;
+  color:blue;
+}
+
+.img-circle{
+  width:75%;
+}
+
+div.label.label-success.price{
+  font-size: 20px;
+  position: absolute;
+  top: -10px;
+  right:-20px;
+  padding:7px;
+}
+
+#tab2 img.thumbnail{
+  margin:0 20px 10px 0;
+  height:150px;
+}
+
+p#col1_heading,p#col2_heading,p#col3_heading{
+  text-decoration: underline;
+  font-size:20px;
+}
+
+#featuresHeading h2{
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-align: left;
+  color:cornflowerblue;
+}
+
+#featuresHeading p{
+  text-align: left;
+  color:#555;
+}
+
+#featuresHeading{
+  margin: 0;
+}
+
+#features h3{
+  font-size:150%;
+  font-family: gadget;
+}
+
+#features p{
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#features a{
+  font-family:sans-serif;
+}
+
+#moreInfo h3{
+  color: cornflowerblue;
+}
+
+#moreInfo h4{
+  padding:10px;
+  color:cornflowerblue;
+}
+
+#tab1 p{
+  padding-top:10px;
+}
+
+#knowKhaadi h4{
+  padding-top:20px;
+}
+
+#advantage1{
+  margin-bottom:10px;
+}
+
+#offers h3{
+  color:cornflowerblue;
+  margin-left:10px;
+}
+
+.  row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+.portfolioOriginalPrice{
+  text-decoration: line-through;
+}
+
+#portfolioWomen .col-xs-12 .thumbnails .col-xs-4 .thumbnail{
+  border:0px;
+}
+
+.thumbnailHeading{
+  height:5%;
+}
+
+/*------------------------------------------
+Media Queries
+------------------------------------------*/
+/*Portrait and landscape phone*/
+@media (max-width:480px){
+  div.label.label-success.price{
+    font-size:14px;
+  }
+
+  .thumbnailHeading{
+    height:10% !important;
+    /*display: none;*/
+    margin-bottom: 5px;
+  }
+}
+
+/*Landscape phonne to portrait tablet*/
+@media(max-width:767px){
+
+  .thumbnailHeading{
+    height:9%;
+  }
+
+  .thumbnails .thumbnail .caption .thumbnailHeading h3{
+    font-size: 13px;
+  }
+  .thumbnails .thumbnail .caption p{
+    font-size: 12px;
+  }
+  .thumbnails .thumbnail .caption p a{
+    font-size: 12px;
+  }
+
+  #logInSearch{
+    display: none;
+  }
+
+  .navbar-header{
+    position: relative;
+  }
+
+  .navbar-default .navbar-toggle{
+    float: left;
+    margin-left: 15px;
+  }
+
+  #logInSearchMobile{
+    margin-top: 17px;
+    display: inline;
+  }
+
+  #logInSearchMobile a{
+    color: #777;
+    margin-right: 17px;
+    text-decoration: none;
+  }
+
+  #logInSearchMobile a:hover{
+    color: #222;
+    margin-right: 17px;
+    text-decoration: none;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -76px !important;  /* 50% of your logo width */
+    display: block;
+  }
+
+  .carousel-inner #slide1, .carousel-inner #slide2, .carousel-inner #slide3{height:310px;}
+
+  .carousel-caption{font-size: 14px;}
+
+  .carousel-caption h4{font-size: 18px;}
+
+  #slide1{
+    background:url("../../images/home/carousel_small_men.jpg") top center no-repeat ;
+  }
+  #slide2{
+    background: url('../../images/home/carousel_small_women.jpg') top center no-repeat ;
+  }
+  #slide3{
+    background: url('../../images/home/carousel_small_kids.jpg') top center no-repeat ;
+  }
+
+  div.label.label-success.price{
+    font-size: 15px;
+    position: absolute;
+    top: -10px;
+    right:-10px;
+    padding:7px;
+  }
+
+  div#footerCol1 ul li{
+    text-align: center;
+  }/*Center alignment is given to first column of the footer when screen size is reduced to mobile screen*/
+
+  div#footerCol1 ul{
+    border-bottom: 1px solid white;
+  }/*Bottom border is given to the first column to seperate it from other three columns below it, this gives it a header look*/
+
+}
+
+/*Large desktop*/
+@media(min-width:1200px){
+
+  .carousel-inner #slide1, .carousel-inner #slide2, .carousel-inner #slide3{height:500px;}
+
+  .carousel-caption{
+    font-size: 27px;
+  }
+
+  .carousel-caption h4{
+    font-size: 40px;
+  }
+
+  #logInSearch{
+    display: inline;
+  }
+
+  #slide1{
+    background:url("../../images/home/carousel_large_men.jpg") top center no-repeat ;
+  }
+  #slide2{
+    background: url('../../images/home/carousel_large_women.jpg') top center no-repeat ;
+  }
+  #slide3{
+    background: url('../../images/home/carousel_large_kids.jpg') top center no-repeat ;
+  }
+}
